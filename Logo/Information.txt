@@ -1,0 +1,4 @@
+1.) Background Color: white
+2.) Light Color: #31d3ff
+3.) Dark Color: 05b5ff
+4.) Font Style: Lucida Sans Typwwriter
