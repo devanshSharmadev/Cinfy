@@ -1,0 +1,67 @@
+.sign-in-wrapper{
+    background-image: url('/assets/wallpapers/skyline.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;  
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.info-box{
+}
+
+.signin-card{
+}
+
+.info-box-inner{
+}
+
+.center{
+    display: flex;
+  justify-content: center;  
+  align-items: center; 
+}
+
+.tagline-text{
+    text-align: center; 
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+}
+
+.custom-button {
+    background-color: #31d3ff; 
+    color: white;              
+    border-radius: 8px;       
+    padding: 2px 20px;       
+    font-size: 16px;         
+    transition: background-color 0.3s; 
+}
+
+.custom-button:hover {
+    background-color: #05b5ff; 
+}
+
+a{
+    color: #31d3ff;
+}
+
+a:hover{
+    color: #05b5ff; 
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+    color: #05b5ff !important;
+   }
+  
+   ::ng-deep.mat-form-field-underline {
+    background-color: #05b5ff !important;
+  } 
+  
+  ::ng-deep.mat-form-field-ripple {
+   background-color: #05b5ff !important;
+  }
